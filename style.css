@@ -1,4 +1,34 @@
-header{
+.cabecalho{
+    background-color: #010101;
+    border-radius: 40px;
+}
+
+.LogoImg{
+    width: 5%;
+}
+
+.LogoImg2{
+    width: 5%;
+    display: flex;
+    align-self: start;
+    justify-content: flex-end;
+    margin: -50px 40px;
+}   
+
+.Informações{
     background-color: #010101;
     color: white;
+    border-radius: 20px;
+    display: flex;
+    margin: 55px 0;
+}
+
+.Informações-div{
+    width: 60%;
+    margin: 0 25px;
+}
+
+.icon-img{
+    margin: 50px 150px;
+    border-radius: 20px;
 }
