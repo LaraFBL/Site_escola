@@ -27,9 +27,12 @@ body{
     width: 60%;
     margin: 0 25px;
 }
-.icon-img{
+.img{
     margin: 50px 120px;
     width: 17%;
+    
+}
+.icon-img{
     border-radius: 20px;
 }
 .falajoker{
@@ -41,9 +44,12 @@ body{
     color: white;
     border-radius: 20px;
     padding: 5px 90px;
-    margin: -95px 970px;
+    margin: -257px 957px;
     display: flex;
 }
 .perfil-info{
     margin: 5px auto;
+}
+.biografia-texto{
+   width: 75%;
 }
