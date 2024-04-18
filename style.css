@@ -27,7 +27,7 @@ body{
     width: 60%;
     margin: 0 25px;
 }
-.img{
+.img-cima{
     margin: 50px 120px;
     width: 17%;
     
@@ -35,21 +35,43 @@ body{
 .icon-img{
     border-radius: 20px;
 }
+.ren-img{
+    width: 65%;
+    margin: -230px -510px;
+    border-radius: 20px;
+}
+
 .falajoker{
     padding: 10px 0;
 }
-.perfil{
+
+.perfil-info{
     position:absolute;
     background-color: #DE0808;
     color: white;
     border-radius: 20px;
     padding: 5px 90px;
-    margin: -257px 957px;
+    margin: 265px 921px;
     display: flex;
 }
-.perfil-info{
-    margin: 5px auto;
+.perfil-info2{
+    position:absolute;
+    background-color: #DE0808;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 17%;
+    font-size: 150%;
+    margin: 330px 921px;
+    display: flex;
 }
+
 .biografia-texto{
-   width: 75%;
+   width: 80%;
+}
+.biografia-texto2{
+    margin: -15px 0;
+}
+.aparencia-texto{
+    width: 80%;
 }
