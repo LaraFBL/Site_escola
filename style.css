@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 .cabecalho{
@@ -37,7 +38,7 @@ body{
 }
 .ren-img{
     width: 65%;
-    margin: -230px -510px;
+    margin: -280px -510px;
     border-radius: 20px;
 }
 
@@ -74,4 +75,21 @@ body{
 }
 .aparencia-texto{
     width: 80%;
+}
+.renfullbody{
+    width: 30%;
+    margin: -150px 660px;
+}
+.aparencia-texto2{
+    margin: -40px 0;
+    width: 80%;
+}
+.renpersonalidade{
+    border-radius: 20px;
+}
+.personalidade-texto{
+    width: 50%;
+    margin: -300px 190px;
+    position: absolute;
+    
 }
