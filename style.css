@@ -7,46 +7,43 @@ body{
     background-color: #010101;
     border-radius: 40px;
 }
-.LogoImg{
+.LogoImg, .LogoImg2{
     width: 5%;
 }
 .LogoImg2{
-    width: 5%;
     display: flex;
-    align-self: start;
-    justify-content: flex-end;
     margin: -50px 40px;
 }   
-.Informações{
+.informacoes{
     background-color: #010101;
     color: white;
     border-radius: 20px;
     display: flex;
     margin: 55px 0;
 }
-.Informações-div{
+.informacoes-div, .informações-div2{
+    position: relative;
     width: 60%;
     margin: 0 25px;
 }
-.img-cima{
-    margin: 50px 120px;
-    width: 17%;
-    
-}
-.icon-img{
+.icon-img, .ren-img{
+    width: 13%;
+    height: auto;
     border-radius: 20px;
 }
 .ren-img{
-    width: 65%;
-    margin: -315px -510px;
-    border-radius: 20px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 16%;
 }
-
-.falajoker{
-    padding: 10px 0;
+.icon-img{
+    position: absolute;
+    top:-210px;
+    left:25px;
+    width: auto;
 }
-
-.perfil-info{
+.perfil-info, .perfil-info2{
     position:absolute;
     background-color: #DE0808;
     color: white;
@@ -56,40 +53,18 @@ body{
     display: flex;
 }
 .perfil-info2{
-    position:absolute;
-    background-color: #DE0808;
-    color: white;
-    border-radius: 20px;
     padding: 5px 10px;
-    width: 17%;
-    font-size: 150%;
+    font-size: 130%;
     margin: 330px 921px;
-    display: flex;
+    width: 29%;
 }
 
-.biografia-texto{
+.biografia-texto, .biografia-texto2{
    width: 80%;
+   display: inline;
 }
-.biografia-texto2{
-    margin: -15px 0;
-}
-.aparencia-texto{
-    width: 80%;
-}
-.renfullbody{
-    width: 30%;
-    margin: -150px 660px;
-}
-.aparencia-texto2{
-    margin: -40px 0;
-    width: 80%;
-}
+
 .renpersonalidade{
-    border-radius: 20px;
-}
-.personalidade-texto{
-    width: 50%;
-    margin: -300px 190px;
-    position: absolute;
-    
+   float: left;
+   margin-right: 10px;
 }
