@@ -1,0 +1,99 @@
+body{
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(menubackground.jpg);
+    background-size: 100% 100%;
+    background-position: center; 
+    z-index: -1;
+    filter: blur(2px);
+}
+.background2{
+    background-color: #010101;
+    background-size: cover;
+    background-position: center; 
+    width: 100% - 40px; 
+    height: 500px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+.cabecalho{
+    background-color: #010101;
+    border-radius: 40px;
+}
+
+.LogoImg, .LogoImg2{
+    width: 5%;
+}
+.LogoImg2{
+    display: flex;
+    margin: -50px 40px;
+}
+.informacoes{
+    background-color: #010101;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    margin: 55px 0;
+}
+.informacoes-menu{
+    width: 100%;
+    text-align: center;
+}
+
+a.container{
+    position: relative;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.reniconmenu{
+    width: auto;
+    height: 200px;
+    border-radius: 20px;
+}
+a.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0); 
+    z-index: 1; 
+    transition: background 0.3s ease; 
+}
+
+a.container:hover::before {
+    background: rgba(0, 0, 0, 0.3); 
+}
+
+.nome {
+    position: absolute;
+    bottom: -10px; 
+    left: 0;
+    width: 100%;
+    color: white; 
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+    transform: translateY(100%); 
+    font-size: 24px;
+    font-weight: bold; 
+    z-index: 2;
+}
+
+a.container:hover .nome {
+    opacity: 1;
+    transform: translateY(0);
+}
